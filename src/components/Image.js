@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import logo from "../logo.svg";
 import Message from "./Message";
+import Input from "./Input"
 
 export default function Image() {
   return (
@@ -21,6 +22,8 @@ export default function Image() {
       >
         Learn React
       </a>
+      <br />
+      <Input />
     </Fragment>
   );
 }

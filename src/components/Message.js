@@ -6,6 +6,7 @@ export default function Message(props) {
   return (
     <div>
 <p>{message} you are  {props.age}</p>
+
     </div>
   );
 }
